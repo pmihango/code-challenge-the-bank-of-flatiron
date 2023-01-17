@@ -104,6 +104,13 @@
       "category": "Fees",
       "amount": "10000",
       "id": 15
+    },
+    {
+      "date": "2023-01-10",
+      "description": "Lunch",
+      "category": "Food",
+      "amount": "5599",
+      "id": 16
     }
   ]
 }

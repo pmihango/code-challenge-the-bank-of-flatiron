@@ -19,7 +19,7 @@ function AddTransactionForm() {
         amount: amount,
       }),
     });
-     alert("TEntry added successfully")
+     alert("Entry added successfully")
   }
   return (
     <div className="ui segment">
