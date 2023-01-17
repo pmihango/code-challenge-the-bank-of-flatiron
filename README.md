@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was done using the  
+This project was done to 
 
 ## Available Scripts
 
