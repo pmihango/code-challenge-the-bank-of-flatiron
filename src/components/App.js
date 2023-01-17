@@ -5,7 +5,7 @@ import AccountContainer from "./AccountContainer";
 function App() {
   return (
     <div className="ui raised segment">
-      <div className="ui segment violet inverted">
+      <div className="ui segment green inverted">
         <h2> Bank of Flatiron</h2>
       </div>
       <AccountContainer />
@@ -18,11 +18,6 @@ export default App;
 // import logo from './logo.svg';
 // import './App.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
 //         <p>
 //           Edit <code>src/App.js</code> and save to reload.
 //         </p>
