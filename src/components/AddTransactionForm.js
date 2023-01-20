@@ -8,7 +8,7 @@ function AddTransactionForm() {
   const [amount, setAmount] = useState("")
   function handleSubmit(e) {
     // fetch("http://localhost:3000/transactions", {
-      fetch("https://api.jsonbin.io/v3/b/63ca550001a72b59f24f5abd", {
+      fetch("https://codeflatiron.vercel.app/transactions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

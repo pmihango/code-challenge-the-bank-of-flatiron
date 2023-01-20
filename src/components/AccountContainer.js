@@ -8,7 +8,7 @@ function AccountContainer() {
   const [query, setQuery] = useState("")
   useEffect(() => {
     // fetch("http://localhost:3000/transactions?q=" + query)
-    fetch("https://api.jsonbin.io/v3/b/63ca550001a72b59f24f5abd/" + query)
+    fetch("https://codeflatiron.vercel.app/transactions?=" + query)
     
       .then((resp) => resp.json())
       .then(transaction => setTransaction(transaction))
