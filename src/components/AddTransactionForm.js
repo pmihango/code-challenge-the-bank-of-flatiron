@@ -7,7 +7,8 @@ function AddTransactionForm() {
   const [category, setCategory] = useState("")
   const [amount, setAmount] = useState("")
   function handleSubmit(e) {
-    fetch("http://localhost:3000/transactions", {
+    // fetch("http://localhost:3000/transactions", {
+      fetch("https://api.jsonbin.io/v3/b/63ca550001a72b59f24f5abd/transactions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
